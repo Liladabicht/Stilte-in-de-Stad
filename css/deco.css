@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Federo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+h2 {
+    font-family: "Federo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+}
+
+p { 
+    font-family: "Delius", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.2vw;
+}
+  
+body {
+    background-image: url(../images/achtergrond.png);
+    background-size: cover;
+}
+
+.home-header {
+    display: flex;
+    justify-content: center ;
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+    background-color: #e8ffdf;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.home-kopje img  {
+    width: 30vw;
+}
+
+.home-slogan {
+    display: flex;
+    align-items: center;
+}
+
+.home-slogan img {
+    width: 15vw;
+}
+
+.cafe-header {
+    display: flex;
+    justify-content: center ;
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+    background-color: #dff4f9;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.cafe-kopje img {
+    width: 30vw;
+}
+
+.cafe-slogan {
+    display: flex;
+    align-items: center;
+}
+
+.cafe-slogan img {
+    width: 15vw;
+}
+
+.bio-header {
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 5%;
+    background-color: #ffd2da;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.bio-kopje img {
+    width: 30vw;
+}
+
+.bio-slogan {
+    display: flex;
+    align-items: center;
+}
+
+.bio-slogan img {
+    width: 15vw;
+}
+
+.intro {
+    background-image: url(../images/blaadjes-border.PNG);
+     background-size: cover;
+     padding: 20%;
+     text-align: center;
+}
+
+.gartine {
+    background-image: url(../images/bloemen-border.PNG);
+    background-size: cover;
+    padding: 19%;
+    text-align: center;
+}
+
+.locatie {
+    background-image: url(../images/bloemen-border.PNG);
+    background-size: cover;
+    padding: 40%;
+    text-align: center;
+}
+
+.over {
+    background-image: url(../images/fruit-border.PNG);
+    background-size: cover;
+    padding: 20%;
+    text-align: center;
+}
+
+.moestuin {
+    background-image: url(../images/fruit-border.PNG);
+    background-size: cover;
+    padding: 20%;
+    text-align: center;
+}
+   
+.home-foot {
+    margin-top: 10%;
+    background-color: #e8ffdf;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+}
+
+.cafe-foot {
+    margin-top: 5%;
+    background-color: #dff4f9;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+}
+
+.bio-foot {
+    margin-top: 5%;
+    background-color: #ffd2da;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+}
+
+.nav img {
+    height: 32vw;
+}
+   
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
